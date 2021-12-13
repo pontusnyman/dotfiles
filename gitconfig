@@ -1,0 +1,16 @@
+[alias]
+        oops = commit --amend --no-edit
+        co = checkout
+        b = !git -P branch
+        cam = commit -am
+        l = log
+        st = status
+[core]
+        autocrlf = false
+[user]
+        name = Pontus Nyman
+        email = 17062233+pontusnyman@users.noreply.github.com
+[push]
+        default = current
+[pull]
+	rebase = false
