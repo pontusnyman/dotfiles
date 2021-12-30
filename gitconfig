@@ -11,6 +11,7 @@
         name = Pontus Nyman
         email = 17062233+pontusnyman@users.noreply.github.com
 [push]
-        default = current
+	default = upstream
 [pull]
 	rebase = false
+	default = upstream
