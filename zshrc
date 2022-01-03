@@ -1,4 +1,4 @@
-echo 'hello'
+echo 'hello zshrc'
 
 #set Variables
 #Syntaz higlighting for man pages using bat
@@ -24,3 +24,5 @@ export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/b
 function mkcd() {
  mkdir -p "$@" && cd "$_";
 }
+
+
