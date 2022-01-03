@@ -1,3 +1,5 @@
 # .dotfiles
 
-lalla
+TODO:
+  - Git ( config and ssh)
+  - Trackpad : three finger touch

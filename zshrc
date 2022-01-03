@@ -6,7 +6,9 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 
 #Create Aliases
-alias ls='ls -lAFh'
+# alias ls='ls -lAFh'
+alias ls="exa -laFh --git"
+alias exa="exa -laFh --git"
 
 #Customize Promt(s)
 PROMPT='
