@@ -2,9 +2,9 @@
     link:
       relink: true
 
-- clean: ['~']
+- clean: ["~"]
 
-- link: 
+- link:
     ~/.zshrc:
     ~/.gitconfig:
 
@@ -13,6 +13,6 @@
     - ~/.vim/undo-history
 
 - shell:
-#  - [git submodule update --init --recursive, Installing submodules]
-   - echo "hey you guys"
-   - sleep 5
+    - command: ./setup_homebrew.zsh
+      stdout: true
+      stderr: true
