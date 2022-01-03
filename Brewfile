@@ -13,6 +13,7 @@ brew "git"
 # brew "nvm"
 # brew "wget"
 brew "exa"
+brew "less"
 
 # Casks (Applications)
 cask "alfred"
