@@ -14,6 +14,7 @@ brew "git"
 # brew "wget"
 brew "exa"
 brew "less"
+brew "zsh"
 
 # Casks (Applications)
 cask "alfred"
