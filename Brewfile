@@ -13,11 +13,13 @@ brew "git"
 # brew "nvm"
 # brew "wget"
 brew "exa"
+brew "less"
+brew "zsh"
 
 # Casks (Applications)
 cask "alfred"
-cask "dropbox"
-cask "gitkraken"
+# cask "dropbox"
+# cask "gitkraken"
 # cask "google-chrome"
 # cask "visual-studio-code"
 mas "Snappy", id: 512617038
