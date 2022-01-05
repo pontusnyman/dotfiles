@@ -16,6 +16,7 @@ brew "zsh"
 # Casks (Applications)
 cask "alfred"
 # cask "google-chrome"
+# cask "firefox"
 # cask "visual-studio-code"
 mas "The Unarchiver", id: 425424353
 mas "Pixelmator Pro", id: 1289583905
