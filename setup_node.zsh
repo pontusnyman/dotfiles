@@ -3,7 +3,7 @@
 echo "\n<<<Starting Node Setup >>>\n"
 
 # Node versions are manged with 'n' wich is in the BRewfile
-# SEE zshrc for N_PERFIX cariavle nd addition to PATH.
+# SEE zshrc for N_PERFIX cariavle nd addition to $path array.
 
 if exists node; then
   echo "Node $(node --version) & NPM $(npm --version) already installed"
@@ -13,6 +13,7 @@ else
 fi
 
 # Install Global NPM Packages
-# npm install --global
+npm install --global yarn
+
 echo "Global NPM Packages Installed:"
 npm list --global --depth=0
