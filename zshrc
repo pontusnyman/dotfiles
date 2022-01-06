@@ -7,6 +7,8 @@ export MANPAGER="sh -c 'col -bx | bat -l man -p'"
 export HOMEBREW_CASK_OPTS="--no-quarantine"
 # Using bat as standard instead of cat
 export NULLCMD=bat
+export N_PREFIX="$HOME/.n"
+export PREFIX="$N_PREFIX"
 
 #Create Aliases
 alias ls="exa -laFh --git"
@@ -20,9 +22,15 @@ PROMPT='
 
 RPROMPT='%*'
 
-# Add Locations to $PATH 
-# Add Visual Studio Code (code)
-export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+# Add Locations to $PATH Array
+
+typeset -U path
+
+path=(
+  "$N_PREFIX/bin"
+  $path
+  "/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+)
 
 # Functions
 function mkcd() {

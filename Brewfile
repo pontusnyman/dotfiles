@@ -12,7 +12,6 @@ brew "mas"
 brew "exa"
 brew "less"
 brew "zsh"
-
 # Casks (Applications)
 cask "alfred"
 cask "google-chrome"
@@ -20,7 +19,6 @@ cask "firefox"
 cask "visual-studio-code"
 cask "iterm2"
 cask "vlc"
-
 mas "The Unarchiver", id: 425424353
 mas "Pixelmator Pro", id: 1289583905
 mas "ColorSlurp", id: 1287239339
