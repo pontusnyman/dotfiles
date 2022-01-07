@@ -1,5 +1,12 @@
 echo 'hello zshrc'
 
+# Load version control information
+autoload -Uz vcs_info
+precmd() { vcs_info }
+
+# Format the vcs_info_msg_0_ variable
+zstyle ':vcs_info:git:*' formats '%b >'
+
 #set Variables
 #Syntax highlighting for man pages using bat
 export MANPAGER="sh -c 'col -bx | bat -l man -p'"
@@ -17,8 +24,9 @@ alias bbd="brew bundle dump --force --describe"
 alias trail='bat<<<${(F)path}'
 
 #Customize Promt(s)
+setopt PROMPT_SUBST
 PROMPT='
-%1~ %L %# '
+%1~ %L %# ${vcs_info_msg_0_}'
 
 RPROMPT='%*'
 
