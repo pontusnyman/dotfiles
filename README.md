@@ -69,3 +69,7 @@ Deactivate licenses:
     ```
 
 ### Manual Steps
+
+1. [Install postman](ttps://www.postman.com/downloads/)
+2. [Install Spotify](https://www.spotify.com/se/download/windows/)
+3. [Mullvad VPN](https://mullvad.net/en/download/macos/)

@@ -24,3 +24,5 @@ mas "Pixelmator Pro", id: 1289583905
 mas "ColorSlurp", id: 1287239339
 mas "Amphetamine", id: 937984704
 mas "Xcode", id: 497799835
+mas "Slack for Desktop", id: 803453959
+mas "1Password 7 - Password Manager", id 1333542190
