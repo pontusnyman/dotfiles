@@ -29,7 +29,7 @@ Deactivate licenses:
 ## Restore Instructions
 
 1. `xcode-select --install` (Command Line Tools are required for Git and Homebrew)
-2. `git clone https://github.com/eieioxyz/dotfiles_macos.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
+2. `git clone https://github.com/pontusnyman/dotfiles.git ~/.dotfiles`. We'll start with `https` but switch to `ssh` after everything is installed.
 3. `cd ~/.dotfiles`
 4. If necessary, `git checkout <another_branch>`.
 5. Do one last Software Audit by editing [Brewfile](Brewfile) directly.
@@ -41,7 +41,7 @@ Deactivate licenses:
 
     ```zsh
     # Generate SSH key in default location (~/.ssh/config)
-    ssh-keygen -t rsa -b 4096 -C "66495007+eieioxyz@users.noreply.github.com"
+    ssh-keygen -t rsa -b 4096 -C "17062233+pontusnyman@users.noreply.github.com"
 
     # Start the ssh-agent
     eval "$(ssh-agent -s)"
@@ -65,7 +65,7 @@ Deactivate licenses:
     ssh -T git@github.com
 
     # Switch from HTTPS to SSH
-    git remote set-url origin git@github.com:eieioxyz/dotfiles_macos.git
+    git remote set-url origin git@github.com:pontusnyman/dotfiles.git
     ```
 
 ### Manual Steps
