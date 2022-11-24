@@ -18,7 +18,7 @@ else
   chsh -s '/usr/local/bin/zsh'
 fi
 
-if sh --version | greo -q zsh; then
+if sh --version | grep -q zsh; then
   echo '/private/var/select/sh already linked to /bin/zsh'
 else
   echo "Enter superuser (sudo password to sumlink sh to zsh"
