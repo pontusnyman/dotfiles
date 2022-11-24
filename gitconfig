@@ -1,6 +1,6 @@
 [alias]
         oops = commit --amend --no-edit
-        co = checkout
+        co = switch
         b = !git -P branch
         cam = commit -am
         l = log
@@ -12,6 +12,7 @@
         email = 17062233+pontusnyman@users.noreply.github.com
 [push]
 	default = upstream
+	autoSetupRemote = true
 [pull]
 	rebase = false
 	default = upstream
