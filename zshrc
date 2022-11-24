@@ -47,5 +47,3 @@ function mkcd() {
 
 
 export PATH="/opt/homebrew/opt/php@7.4/bin:$PATH"
-export NEO4J_BLOOM_NPM_TOKEN=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
-
