@@ -6,7 +6,7 @@ if exists brew; then
   echo "brew exists, skipping install"
 else
   echo "brew doesnt exist, continuing with install"
-  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
 fi
 
 brew bundle --verbose
